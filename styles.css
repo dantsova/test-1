@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: left;
+    margin: 0;
+}
+header{
+    padding-left: 195px;
+    padding-right: 195px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #F53855;
+    transition: 0.7s;
+}
+button:hover {
+    box-shadow: 10px 25px 25px #F53855;
+    transition: 0.7s;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-right: 40px;
+}
+#logo-header{
+    display: flex;
+    flex-direction: row;
+    margin-right: 157px;
+    align-items: center;
+    justify-content: space-between;
+    width: 149px;
+    height: 36.23px;
+}
+.logo-text{
+    width: 104px;
+    height: 24px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0B132A;
+}
+#VPN{
+    font-weight: 700;
+}
+.selected{
+    font-weight: 1100;
+    color: #F53855;
+}
+header{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding-top: 50px;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+.logo{
+    width: 35px;
+    height: 36.23px;
+}
+button {
+    background: #FFFFFF;
+    border-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#sign-div{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bold-text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+}
+#sign-in{
+    margin-right: 30px;
+}
+.basic-buttons{
+    width: 150px;
+    height: 45px;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}
