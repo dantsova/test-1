@@ -1,0 +1,21 @@
+@media screen and (max-width : 1299px) and (min-width: 1000px) {
+    body {
+    }
+    header {
+        flex-direction: row;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    nav{
+        width: 100%;
+    }
+    #logo-header{
+        margin-right: 5%;
+    }
+    #sign-div{
+        margin-left: initial !important;
+    }
+    .nav-items{
+        margin-right: 2%;
+    }
+}

@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="media100-800.css">
+    <link type="text/css" rel="stylesheet" href="media800-1000.css">
+    <link type="text/css" rel="stylesheet" href="media1000-1300.css">
+    <link type="text/css" rel="stylesheet" href="media1300-1500.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
+<header id="header">
+    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <label class="btn-menu hidden-burger" for="hmt">
+        <span class="image"><img id="burger-checkbox" src="resources/images/logo.png"></span>
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </label>
+    <nav class="nav" id="nav">
+        <div id="logo-header" class="logo-nav">
+            <img class="logo" src="resources/images/logo.png" />
+            <div class="logo-text">Lasles<span id="VPN">VPN</span></div>
+        </div>
+        <a class="nav-items" href="#">About</a>
+        <a class="nav-items" href="#">Features</a>
+        <a class="nav-items" href="#">Pricing</a>
+        <a class="nav-items" href="#">Testimonials</a>
+        <a class="nav-items" href="#">Help</a>
 
+    <div id="sign-div">
+        <a class="bold-text" id="sign-in">Sign In</a>
+        <button class="basic-buttons" id="sign-up">Sign Up</button>
+    </div>
+    </nav>
+</header>
 </body>
 </html>
