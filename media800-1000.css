@@ -1,0 +1,22 @@
+@media screen and (max-width : 999px) and (min-width: 800px) {
+    body {
+    }
+    header {
+        flex-direction: row;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    nav{
+        width: 100%;
+    }
+    #logo-header{
+        margin-right: 2%;
+    }
+    #sign-div{
+        margin-left: initial !important;
+    }
+    .nav-items{
+        margin-right: 1%;
+    }
+
+}

@@ -13,6 +13,7 @@ body{
     margin: 0;
 }
 header{
+    flex-direction: row;
     padding-left: 195px;
     padding-right: 195px;
 }
@@ -43,10 +44,16 @@ a{
     line-height: 19px;
     color: #4F5665;
 }
+#hmt{
+    display: none;
+}
+.hidden-burger{
+    display: none;
+}
 .nav-items{
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    text-align: left;
     letter-spacing: 0.02em;
     margin-right: 40px;
 }
@@ -99,8 +106,11 @@ button {
     cursor: pointer;
 }
 #sign-div{
+    display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 100px;
 }
 .bold-text{
     font-family: Rubik;
@@ -111,7 +121,7 @@ button {
     color: #0B132A;
 }
 #sign-in{
-    margin-right: 30px;
+    margin-right: 29px;
 }
 .basic-buttons{
     width: 150px;
