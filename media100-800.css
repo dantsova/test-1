@@ -1,17 +1,19 @@
 @media screen and (max-width : 800px) {
     body {
-        font-size: 0.7em;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
 
-    section, header, footer, .table {
+    section, header, footer {
         padding-left: 2%;
         padding-right: 2%;
         flex-wrap: wrap;
         width: initial !important;
     }
+
+
+    /*header*/
     header{
         padding-top: 20px;
     }
@@ -164,4 +166,43 @@
         transition: 0.7s;
     }
 
+
+    /*first-section*/
+    .first-section{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 2%;
+        margin-top: 15%;
+    }
+
+    .first-section-content-div{
+        align-items: center;
+    }
+
+    .first-section-image{
+        width: 80vw;
+        height: auto;
+        margin-left: initial !important;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .first-section-title{
+        width: initial !important;
+        height: auto;
+        text-align: center;
+        line-height: 40px;
+        font-size: calc(30px + (40 - 30) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+
+    .first-section-content{
+        width: initial !important;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .first-section-button:hover{
+        color: white;
+    }
 }

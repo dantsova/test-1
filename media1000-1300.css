@@ -1,6 +1,7 @@
 @media screen and (max-width : 1299px) and (min-width: 1000px) {
     body {
     }
+    /*header*/
     header {
         flex-direction: row;
         padding-left: 5%;
@@ -17,5 +18,27 @@
     }
     .nav-items{
         margin-right: 2%;
+    }
+    /*first section*/
+    .first-section{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 5%;
+        align-items: center;
+    }
+    .first-section-content, .first-section-title{
+        width: initial !important;
+        height: auto;
+    }
+    .first-section-title{
+        line-height: 56px;
+    }
+    .first-section-content{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .first-section-image{
+        margin-left: initial !important;
+        width: 55vw;
     }
 }

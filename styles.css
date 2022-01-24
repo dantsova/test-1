@@ -156,7 +156,6 @@ button {
     height: 140px;
     font-size: 50px;
     line-height: 70px;
-    margin-bottom: 20px;
 }
 .first-section-content{
     width: 555px;
@@ -164,9 +163,10 @@ button {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .first-section-button{
-    margin-top: 50px;
     width: 250px;
     height: 60px;
     background: #F53838;
@@ -186,3 +186,4 @@ button {
     height: 382.44px;
     margin-left: auto;
 }
+
