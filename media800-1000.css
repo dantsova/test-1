@@ -1,6 +1,7 @@
 @media screen and (max-width : 999px) and (min-width: 800px) {
     body {
     }
+    /*header*/
     header {
         flex-direction: row;
         padding-left: 2%;
@@ -19,4 +20,9 @@
         margin-right: 1%;
     }
 
+    /*first section*/
+    .first-section{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
