@@ -12,7 +12,7 @@ body{
     justify-content: left;
     margin: 0;
 }
-header{
+header, section{
     flex-direction: row;
     padding-left: 195px;
     padding-right: 195px;
@@ -66,19 +66,23 @@ a{
     width: 149px;
     height: 36.23px;
 }
-.logo-text{
-    width: 104px;
-    height: 24px;
-
+.text-style{
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #0B132A;
+    letter-spacing: 1px;
+}
+.logo-text{
+    width: 104px;
+    height: 24px;
+    font-weight: bold;
 }
 #VPN{
-    font-weight: 700;
+    font-weight: bolder;
+
 }
 .selected{
     font-weight: 1100;
@@ -135,4 +139,50 @@ button {
     font-size: 16px;
     line-height: 19px;
     color: #F53855;
+}
+.first-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 88.5px;
+    padding-right: 125px;
+}
+.first-section-content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-section-title{
+    width: 555px;
+    height: 140px;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.first-section-content{
+    width: 555px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.first-section-button{
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 102px 0px rgba(245, 56, 56, 0.35);
+    border-radius: 10px;
+}
+.first-section-image{
+    width: 611.24px;
+    height: 382.44px;
+    margin-left: auto;
 }
