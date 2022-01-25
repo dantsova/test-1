@@ -3,6 +3,7 @@
 }
 html{
     height: 100%;
+    background: #F6F6F6;
 }
 body{
     display: flex;
@@ -97,7 +98,6 @@ header{
     flex-grow: 0;
     flex-shrink: 1;
     padding-top: 50px;
-    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 .logo{
     width: 35px;
@@ -188,5 +188,52 @@ button {
     width: 611.24px;
     height: 382.44px;
     margin-left: auto;
+}
+
+/*second section */
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 105px;
+    background: #FFFFFF;
+    padding: initial !important;
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.second-section-element{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 30.3px 120px 30.3px 95px;
+    margin: 37.2px 0px;
+}
+
+.borders{
+    border-right: 2px solid #EEEFF2;
+}
+
+.second-section-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 36.5px;
+}
+
+.second-section-values{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.second-section-of{
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.icon{
+    width: 55px;
+    height: 55px;
 }
 
