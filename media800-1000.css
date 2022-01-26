@@ -25,4 +25,23 @@
         padding-left: 2%;
         padding-right: 2%;
     }
+
+
+    /*second section*/
+
+    .second-section{
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: center;
+    }
+    .second-section-element{
+        padding: 30.3px 5% 30.3px 5%;
+    }
+    .second-section-values{
+        font-size: calc(16px + (18 - 16) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .second-section-of{
+        font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+
 }
