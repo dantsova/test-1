@@ -77,4 +77,13 @@
     .second-section-of{
         font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
+
+    /*third-section*/
+
+    .second-section{
+         flex-direction: row;
+         margin-left: 2%;
+         margin-right: 2%;
+         justify-content: space-around;
+     }
 }
