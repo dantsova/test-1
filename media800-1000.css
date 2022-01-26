@@ -25,4 +25,29 @@
         padding-left: 2%;
         padding-right: 2%;
     }
+    .first-section-image{
+        width: 80vw;
+        height: auto;
+        margin-left: initial !important;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .first-section-content, .first-section-title{
+        width: initial !important;
+        height: auto;
+    }
+    .first-section-title{
+        line-height: 46px;
+        font-size: calc(24px + (28 - 24) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .first-section-content{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .first-section-image{
+        margin-left: initial !important;
+        width: 55vw;
+    }
 }
