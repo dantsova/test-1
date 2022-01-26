@@ -39,4 +39,15 @@
         margin-left: initial !important;
         width: 55vw;
     }
+
+    /*second-section*/
+
+    .second-section{
+        margin-left: 8%;
+        margin-right: 8%;
+        justify-content: center;
+    }
+    .second-section-element{
+        padding: 30.3px 7% 30.3px 7%;
+    }
 }

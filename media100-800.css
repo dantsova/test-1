@@ -205,4 +205,31 @@
     .first-section-button:hover{
         color: white;
     }
+
+    /*second section*/
+    .second-section{
+        flex-direction: row;
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-around;
+    }
+
+    .second-section-element{
+        padding: 0;
+        justify-content: flex-start;
+        align-self: center;
+        margin: 5% 0%;
+    }
+    .borders{
+        border: none;
+    }
+    .second-section-div{
+        margin-left: 5%;
+    }
+    .second-section-values{
+        font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .second-section-of{
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
 }

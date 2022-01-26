@@ -195,7 +195,7 @@ button {
 .second-section{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     margin-top: 105px;
     background: #FFFFFF;
     padding: initial !important;
