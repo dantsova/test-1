@@ -34,7 +34,7 @@ nav{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 a{
@@ -308,8 +308,109 @@ li{
     vertical-align: middle;
 }
 
+/*fourth-section*/
 
-#circle-counter {
-    margin-left: 0;
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.fourth-section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourth-section-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+ }
+.fourth-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+}
+.fourth-section-container-selected{
+    border: 2px solid #F53838;
+}
+.fourth-section-container-image{
+    margin-top: 79.63px;
+    width: 144.9px;
+    height: 165.37px;
+}
+.fourth-section-container li{
+    padding-inline-start: 25.8px;
+    margin-bottom: 10px;
+    list-style-image: url("resources/icons/li-2.svg");
+}
+.plan-button{
+    border: 2px solid #F53838;
+    width: 177.88px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+.plan-button-selected{
+    background: #F53838;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 102px 0px rgba(245, 56, 56, 0.35);
+}
+.fourth-section-title{
+    width: 383.41px;
+    height: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+.fourth-section-content{
+    width: 555px;
+    height: 60px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.plan-div{
+    display: flex;
+    flex-direction: column;
+}
+.plan-title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    text-align: center;
+}
+.plan-cost{
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+.gray-span {
+    color: #4F5665;
+    font-weight: 500;
+}
