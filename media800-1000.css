@@ -2,10 +2,12 @@
     body {
     }
     /*header*/
-    header {
-        flex-direction: row;
+    header, section {
         padding-left: 2%;
         padding-right: 2%;
+    }
+    header{
+        flex-direction: row;
     }
     nav{
         width: 100%;
@@ -21,10 +23,6 @@
     }
 
     /*first section*/
-    .first-section{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
     .first-section-image{
         width: 80vw;
         height: auto;
@@ -54,6 +52,8 @@
     /*second section*/
     .second-section{
         flex-direction: row;
+        padding-left: initial !important;
+        padding-right: initial !important;
         margin-left: 2%;
         margin-right: 2%;
         justify-content: space-around;
@@ -80,10 +80,12 @@
 
     /*third-section*/
 
-    .second-section{
+    .third-section{
          flex-direction: row;
-         margin-left: 2%;
-         margin-right: 2%;
          justify-content: space-around;
      }
+    .fourth-section{
+
+    }
+
 }

@@ -2,10 +2,12 @@
     body {
     }
     /*header*/
-    header {
-        flex-direction: row;
+    header, section {
         padding-left: 8%;
         padding-right: 8%;
+    }
+    header{
+        flex-direction: row;
     }
     nav{
         width: 100%;
@@ -20,10 +22,6 @@
         margin-right: 2%;
     }
     /*first section*/
-    .first-section{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
     .first-section-content, .first-section-title{
         width: initial !important;
         height: auto;
@@ -43,6 +41,8 @@
     /*second-section*/
 
     .second-section{
+        padding-left: initial !important;
+        padding-right: initial !important;
         margin-left: 8%;
         margin-right: 8%;
         justify-content: center;
@@ -54,8 +54,12 @@
     /*third-section*/
 
     .third-section{
-        padding-left: 8%;
-        padding-right: 8%;
         justify-content: space-between;
+    }
+    .fourth-section{
+
+    }
+    .fourth-section-container{
+        width: 33%;
     }
 }
