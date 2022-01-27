@@ -25,23 +25,65 @@
         padding-left: 2%;
         padding-right: 2%;
     }
+    .first-section-image{
+        width: 80vw;
+        height: auto;
+        margin-left: initial !important;
+        margin-top: 20px;
+        align-self: center;
+    }
 
+    .first-section-content, .first-section-title{
+        width: initial !important;
+        height: auto;
+    }
+    .first-section-title{
+        line-height: 46px;
+        font-size: calc(24px + (28 - 24) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .first-section-content{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .first-section-image{
+        margin-left: initial !important;
+        width: 55vw;
+    }
 
     /*second section*/
-
     .second-section{
+        flex-direction: row;
         margin-left: 2%;
         margin-right: 2%;
-        justify-content: center;
-    }
-    .second-section-element{
-        padding: 30.3px 5% 30.3px 5%;
-    }
-    .second-section-values{
-        font-size: calc(16px + (18 - 16) * ( (100vw - 480px) / ( 1024 - 480) ));
-    }
-    .second-section-of{
-        font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+        justify-content: space-around;
     }
 
+    .second-section-element{
+        padding: 0;
+        justify-content: flex-start;
+        align-self: center;
+        margin: 5% 0%;
+    }
+    .borders{
+        border: none;
+    }
+    .second-section-div{
+        margin-left: 5%;
+    }
+    .second-section-values{
+        font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .second-section-of{
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+
+    /*third-section*/
+
+    .second-section{
+         flex-direction: row;
+         margin-left: 2%;
+         margin-right: 2%;
+         justify-content: space-around;
+     }
 }
