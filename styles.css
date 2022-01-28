@@ -116,6 +116,24 @@ button {
     justify-content: space-between;
     margin-left: 100px;
 }
+.basic-title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+.basic-content{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
 .bold-text{
     font-family: Rubik;
     font-style: normal;
@@ -156,13 +174,12 @@ button {
     height: 140px;
     font-size: 50px;
     line-height: 70px;
+    text-align: left;
 }
 .first-section-content{
     width: 555px;
     height: 60px;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4F5665;
+    text-align: left;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -181,7 +198,7 @@ button {
     box-shadow: 0px 20px 102px 0px rgba(245, 56, 56, 0.35);
     border-radius: 10px;
 }
-.span-f-s{
+.span-logo{
     color: #4F5665;
 }
 .first-section-image{
@@ -224,12 +241,13 @@ button {
 .second-section-values{
     font-size: 25px;
     line-height: 30px;
+    text-align: left;
 }
 
 .second-section-of{
     font-size: 20px;
     line-height: 30px;
-    color: #4F5665;
+    text-align: left;
 }
 
 .icon{
@@ -256,30 +274,17 @@ button {
 .third-section-title{
     width: 383.41px;
     height: 100px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 50px;
-    color: #0B132A;
+    text-align: left;
 }
 .third-section-content{
+    text-align: left;
     height: 60px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    color: #4F5665;
     margin: 20px 0;
 }
 ul{
     padding-left: 0;
 }
 li{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
@@ -288,6 +293,7 @@ li{
 }
 .third-section-div li{
     list-style-type: none;
+    text-align: left;
     margin-bottom: 10px;
 }
 
@@ -348,6 +354,7 @@ li{
     height: 165.37px;
 }
 .fourth-section-container li{
+    text-align: left;
     padding-inline-start: 25.8px;
     margin-bottom: 10px;
     list-style-image: url("resources/icons/li-2.svg");
@@ -366,24 +373,11 @@ li{
 .fourth-section-title{
     width: 383.41px;
     height: 50px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 50px;
-    text-align: center;
-    color: #0B132A;
 }
 .fourth-section-content{
     width: 555px;
     height: 60px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
     text-align: center;
-    color: #4F5665;
     margin-top: 20px;
 }
 .plan-div{
@@ -391,26 +385,50 @@ li{
     flex-direction: column;
 }
 .plan-title{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    color: #0B132A;
-    text-align: center;
 }
 .plan-cost{
     margin-bottom: 20px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-    text-align: center;
-    color: #0B132A;
 }
 .gray-span {
     color: #4F5665;
     font-weight: 500;
+}
+/*fifth-section*/
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.fifth-section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth-section-title{
+    width: 383.41px;
+    height: 100px;
+}
+.fifth-section-content{
+    width: 555px;
+    height: 60px;
+    margin-top: 20px;
+}
+.map-image{
+    width: 1060px;
+    height: 537.77px;
+    margin-top: 155.8px;
+    margin-bottom: 80.6px;
+}
+.sn-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sn-image{
+    width: 190px;
+    height: 60px;
 }
