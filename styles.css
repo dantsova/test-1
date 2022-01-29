@@ -422,13 +422,11 @@ li{
     height: 537.77px;
     margin-top: 155.8px;
     margin-bottom: 80.6px;
+    align-self: center;
 }
 .sn-images{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.sn-image{
-    width: 190px;
-    height: 60px;
+    flex-wrap: wrap;
 }

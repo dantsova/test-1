@@ -87,5 +87,19 @@
     .fourth-section{
 
     }
+    /*fifth-section*/
+    .map-image{
+        width: 95vw;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sn-images{
+        justify-content: center;
+    }
+    .sn-image{
+        width: 20vw;
+        height: auto;
+    }
 
 }

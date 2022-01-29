@@ -63,4 +63,12 @@
     .fourth-section-container{
         width: 30%;
     }
+    /*fifth-section*/
+    .map-image{
+        width: 95vw;
+        height: auto;
+    }
+    .sn-images{
+        justify-content: center;
+    }
 }

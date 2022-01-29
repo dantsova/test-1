@@ -62,4 +62,9 @@
     .fourth-section-container{
         width: 33%;
     }
+
+    /*fifth-section*/
+    .sn-images{
+        justify-content: center;
+    }
 }
