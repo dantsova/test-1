@@ -30,7 +30,6 @@
         width: 10vw;
         height: auto;
     }
-    /*стилизуем менюшку*/
     .nav {
         display: flex;
         justify-content: flex-start;
@@ -53,13 +52,9 @@
     .hidden-burger{
         display: initial !important;
     }
-
-    /*скрываем инпут чекбокс*/
     .hidden-menu-ticker {
         display: none;
     }
-
-    /*общие стили значка-гамбургера, самого лэйбла*/
     .btn-menu {
         color: #fff;
         background-color: #fff;
@@ -72,7 +67,6 @@
         -webkit-backface-visibility: hidden;
     }
 
-    /*общие стили полосок*/
     .btn-menu span {
         display: block;
         height: 2px;
@@ -81,16 +75,10 @@
         transition: all .1s linear .23s;
         position: relative;
     }
-
-    /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
     .hidden-menu-ticker:checked ~ .btn-menu {
         margin-left: 65%;
         background-color: transparent;
     }
-
-
-
-    /*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
     .hidden-menu-ticker:checked ~ .nav {
         left: 0;
     }
@@ -166,6 +154,15 @@
         transition: 0.7s;
     }
 
+    .basic-content{
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .basic-title{
+        font-size: calc(22px + (28 - 22) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+    .span-logo{
+        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
 
     /*first-section*/
     .first-section{
@@ -200,7 +197,6 @@
         height: auto;
         text-align: center;
         margin-bottom: 20px;
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .first-section-button:hover{
         color: white;
@@ -229,9 +225,6 @@
     .second-section-values{
         font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
-    .second-section-of{
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
-    }
 
     /*third section*/
     .third-section{
@@ -255,12 +248,10 @@
         height: initial !important;
         text-align: center;
         line-height: 36px;
-        font-size: calc(22px + (28 - 22) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .third-section-content{
         width: initial !important;
         height: initial !important;
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .third-section-div li{
         font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
@@ -277,12 +268,10 @@
     .fourth-section-title{
         width: initial !important;
         height: auto;
-        font-size: calc(22px + (28 - 22) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .fourth-section-content{
         width: initial !important;
         height: auto;
-        font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
         margin-top: initial !important;
     }
     .fourth-section-container-image{
@@ -310,5 +299,34 @@
     .plan-cost{
         margin-bottom: initial !important;
         font-size: calc(20px + (24 - 20) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+
+    /*fifth-section*/
+
+    .fifth-section{
+        margin-top: 50px;
+    }
+    .fifth-section-title{
+        width: initial !important;
+        height: auto;
+    }
+    .fifth-section-content{
+        width: initial !important;
+        height: auto;
+    }
+    .map-image{
+        width: 95vw;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sn-images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sn-image{
+        width: 30vw;
+        height: auto;
     }
 }
