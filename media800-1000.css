@@ -3,8 +3,8 @@
     }
     /*header*/
     header, section {
-        padding-left: 2%;
-        padding-right: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     header{
         flex-direction: row;
@@ -102,4 +102,26 @@
         height: auto;
     }
 
+    /*seventh-section*/
+    .seventh-section{
+        flex-direction: column;
+        padding-left: initial !important;
+        padding-right: initial !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .seventh-section-title{
+        text-align: center;
+        width: initial !important;
+        height: auto;
+    }
+    .seventh-section-content{
+        text-align: center;
+        width: initial !important;
+        height: auto;
+        margin-top: 10px;
+    }
+    .seventh-section-div{
+        margin-bottom: 10px;
+    }
 }

@@ -1,0 +1,97 @@
+.slider {
+
+}
+
+.slider__container {
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  /*overflow: hidden;*/
+}
+
+.slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  flex: 0 0 100%;
+  user-select: none;
+}
+
+.slider_disable-transition {
+  transition: none;
+}
+
+.slider__item {
+  flex: 0 0 100%;
+  max-width: 450px;
+  user-select: none;
+}
+
+/* кнопки влево и вправо */
+
+.slider__control {
+  display: flex;
+
+}
+
+.slider__control_hide {
+  display: none;
+}
+
+.slider__control[data-slide='prev'] {
+  left: 0;
+}
+
+.slider__control[data-slide='next'] {
+  right: 0;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  opacity: 1;
+}
+
+.slider__control::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.slider__control[data-slide='prev']::before {
+  background-image: url(resources/icons/arrow-white-icon.svg);
+  width: 40px;
+  height: 14px;
+}
+
+.slider__control[data-slide='next']::before {
+  background-image: url(resources/icons/arrow-red-icon.svg);
+  max-width: 20px;
+  height: 14px;
+  margin-left: 20px;
+  opacity: 0.5;
+  transform: rotate(-180deg);}
+
+/* индикаторы */
+
+
+.slider__indicators li {
+  opacity: 1;
+  color: white;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  box-sizing: content-box;
+  cursor: pointer;
+  background-color: #C4C4C4;
+  background-clip: padding-box;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.slider__indicators li.active {
+  width: 7px;
+  height: 7px;
+  background-color: #F53838;
+}

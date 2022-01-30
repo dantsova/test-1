@@ -5,6 +5,7 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="customslider.css">
     <link type="text/css" rel="stylesheet" href="media100-800.css">
     <link type="text/css" rel="stylesheet" href="media800-1000.css">
     <link type="text/css" rel="stylesheet" href="media1000-1300.css">
@@ -43,7 +44,7 @@
     <div class="first-section-content-div">
         <div class="basic-title first-section-title">Want anything to be easy with LaslesVPN.</div>
         <div class="basic-content first-section-content">Provide a network for all your needs with ease and fun using <span class="bold-text span-logo">LaslesVPN</span> discover interesting features from us.</div>
-        <button class="first-section-button">Get Started</button>
+        <button class="basic-red-button">Get Started</button>
     </div>
     <img class="first-section-image" src="resources/images/first-section-image.png">
 </section>
@@ -160,5 +161,95 @@
         <img class="sn-image" src="resources/images/spotify-image.svg">
     </div>
 </section>
+<!--
+<section class="sixth-section">
+    <div class="sixth-section-div">
+        <div class="basic-title sixth-section-title">Trusted by Thousands of Happy Customer</div>
+        <div class="basic-content sixth-section-content">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</div>
+    </div>
+    <div class="slider" data-slider="customslider">
+        <div class="slider__container">
+            <div class="slider__wrapper">
+                <div class="slider__items rectangles">
+                    <div class="slider__item item">
+                        <div class="slider__content">
+                            <img class="slider__content_photo" src="resources/icons/person-1-icon.svg" alt="">
+                            <div class="slider__content_author_information">
+                                <span class="basic-title slider__content_author">Viezh Robert</span>
+                                <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                            </div>
+                            <div class="basic-content slider__content_raiting">4.5</div>
+                        </div>
+                        <div class="basic-content slider__content_opinion">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
+                    </div>
+                    <div class="slider__item item">
+                        <div class="slider__content">
+                            <img class="slider__content_photo" src="resources/icons/person-2-icon.svg" alt="">
+                            <div class="slider__content_author_information">
+                                <span class="basic-title slider__content_author">Yessica Christy</span>
+                                <span class="basic-content slider__content_geolocation">Shanxi, China</span>
+                            </div>
+                            <div class="basic-content slider__content_raiting">4.5</div>
+                        </div>
+                        <div class="basic-content slider__content_opinion">“I like it because I like to travel far and still can connect with high speed.”.</div>
+                    </div>
+                    <div class="slider__item item">
+                        <div class="slider__content">
+                            <img class="slider__content_photo" src="resources/icons/person-3-icon.svg" alt="">
+                            <div class="slider__content_author_information">
+                                <span class="basic-title slider__content_author">Kim Young Jou</span>
+                                <span class="basic-content slider__content_geolocation">Seoul, South Korea</span>
+                            </div>
+                            <div class="basic-content slider__content_raiting">4.5</div>
+                        </div>
+                        <div class="basic-content slider__content_opinion">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</div>
+                    </div>
+                    <div class="slider__item item item3">
+                        <div class="slider__content">
+                            <img class="slider__content_photo" src="resources/icons/person-4-icon.svg" alt="">
+                            <div class="slider__content_author_information">
+                                <span class="basic-title slider__content_author">Yana Dantsova</span>
+                                <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                            </div>
+                            <div class="basic-content slider__content_raiting">4.5</div>
+                        </div>
+                        <div class="basic-content slider__content_opinion">Perfect.</div>
+                    </div>
+                </div>
+                <div class="slider-links">
+                    <ol class="slider__indicators">
+                        <li data-slide-to="0"></li>
+                        <li data-slide-to="1"></li>
+                        <li data-slide-to="2"></li>
+                        <li data-slide-to="3"></li>
+                    </ol>
+                    <div class="arrows">
+                        <a class="slider__control slider__control_left" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_right slider__control_show" href="#" role="button" data-slide="next"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<section class="seventh-section">
+    <div class="seventh-section-div">
+        <div class="basic-title seventh-section-title">Subscribe Now for Get Special Features!</div>
+        <div class="basic-content seventh-section-content">Let's subscribe with us and find the fun.</div>
+    </div>
+    <button class="basic-red-button">Subscribe Now</button>
+</section>
+<script src="scripts/customslider.js"></script>
+
+<script>
+    const $slider = document.querySelector('[data-slider="customslider"]');
+    const slider = new CustomSlider($slider, {
+        loop: true,
+        autoplay: false,
+        refresh: true,
+    });
+</script>
 </body>
 </html>

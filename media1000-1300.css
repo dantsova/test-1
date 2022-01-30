@@ -3,8 +3,8 @@
     }
     /*header*/
     header, section {
-        padding-left: 5%;
-        padding-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     header{
         flex-direction: row;
