@@ -18,15 +18,15 @@
 <header id="header">
     <input type="checkbox" id="hmt" class="hidden-menu-ticker">
     <label class="btn-menu hidden-burger" for="hmt">
-        <span class="image"><img id="burger-checkbox" src="resources/images/logo.png"></span>
+        <span class="image"><img id="burger-checkbox" src="resources/images/logo.svg"></span>
         <span class="first"></span>
         <span class="second"></span>
         <span class="third"></span>
     </label>
     <nav class="nav" id="nav">
         <div id="logo-header" class="logo-nav">
-            <img class="logo" src="resources/images/logo.png" />
-            <div class="text-style logo-text">Lasles<span id="VPN">VPN</span></div>
+            <img class="logo" src="resources/images/logo.svg" />
+            <div class="text-style logo-text">Lasles<span class="VPN">VPN</span></div>
         </div>
         <a class="nav-items" href="#">About</a>
         <a class="nav-items" href="#">Features</a>
@@ -42,7 +42,7 @@
 </header>
 <section class="first-section">
     <div class="first-section-content-div">
-        <div class="basic-title first-section-title">Want anything to be easy with LaslesVPN.</div>
+        <div class="basic-title first-section-title">Want anything to be easy with <span class="basic-title first-section-title span-logo">LaslesVPN</span></div>
         <div class="basic-content first-section-content">Provide a network for all your needs with ease and fun using <span class="bold-text span-logo">LaslesVPN</span> discover interesting features from us.</div>
         <button class="basic-red-button">Get Started</button>
     </div>
@@ -241,6 +241,52 @@
     </div>
     <button class="basic-red-button">Subscribe Now</button>
 </section>
+<footer>
+    <div class="general-part-footer">
+        <div class="basic-title footer-title">
+            <img src="resources/images/logo.svg"/>
+            <div class="text-style logo-text">Lasles<span class="VPN">VPN</span></div>
+        </div>
+        <div class="basic-content footer-content"><span class="basic-content span-logo">LaslesVPN</span> is a private virtual network that has unique features and has high security.</div>
+        <div class="sm-logos">
+            <a><img class="sm-logo" src="resources/icons/social-media-icons/facebook-icon.svg"></a>
+            <a><img class="sm-logo" src="resources/icons/social-media-icons/twitter-icon.svg"></a>
+            <a><img class="sm-logo" src="resources/icons/social-media-icons/instagram-icon.svg"></a>
+        </div>
+        <div class="basic-content copyright-text">©2020LaslesVPN</div>
+    </div>
+    <div class="other-footers">
+        <div class="product-footer">
+            <div class="links-list">
+                <a class="basic-title footer-title" onclick="footerBurgerFunction()" id="product-title">Product</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Download</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Pricing</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Locations</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Servers</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Countries</a>
+                <a class="basic-content footer-list-content footer-list-product hidden">Blog</a>
+            </div>
+        </div>
+        <div class="engage-footer">
+            <div class="links-list">
+                <a class="basic-title footer-title" onclick="footerBurgerFunction()" id="engage-title">Engage</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">LaslesVPN ?</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">FAQ</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">Tutorials</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">About Us</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">Privacy Policy</a>
+                <a class="basic-content footer-list-content footer-list-engage hidden">Terms of Service</a>
+            </div>
+        </div>
+        <div class="earn-money-footer">
+            <div class="links-list">
+                <a class="basic-title footer-title" onclick="footerBurgerFunction()" id="earn-money-title">Earn Money</a>
+                <a class="basic-content footer-list-content footer-list-earn-money hidden">Affiliate</a>
+                <a class="basic-content footer-list-content footer-list-earn-money hidden">Become Partner</a>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="scripts/customslider.js"></script>
 
 <script>
@@ -250,6 +296,29 @@
         autoplay: false,
         refresh: true,
     });
+</script>
+<script>
+    function footerBurgerFunction() {
+        let x = document.getElementById(event.target.id);
+        if (x.className == "basic-title footer-title") {
+            let reqLinks;
+            if(event.target.id == "product-title") {
+                reqLinks = document.getElementsByClassName("footer-list-product");
+            } else if (event.target.id == "engage-title"){
+                reqLinks = document.getElementsByClassName("footer-list-engage");
+            } else if (event.target.id == "earn-money-title"){
+                reqLinks = document.getElementsByClassName("footer-list-earn-money");
+            }
+            for(let element of reqLinks){
+                if(element.className.includes("hidden")) {
+                    element.className = element.className.replace(' hidden', '');
+                }
+                else{
+                    element.className += " hidden";
+                }
+            }
+        }
+    }
 </script>
 </body>
 </html>

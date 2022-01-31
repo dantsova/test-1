@@ -2,7 +2,7 @@
     body {
     }
     /*header*/
-    header, section {
+    header, section, footer {
         margin-left: 8%;
         margin-right: 8%;
     }
