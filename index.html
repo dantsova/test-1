@@ -161,7 +161,7 @@
         <img class="sn-image" src="resources/images/spotify-image.svg">
     </div>
 </section>
-<!--
+
 <section class="sixth-section">
     <div class="sixth-section-div">
         <div class="basic-title sixth-section-title">Trusted by Thousands of Happy Customer</div>
@@ -172,48 +172,68 @@
             <div class="slider__wrapper">
                 <div class="slider__items rectangles">
                     <div class="slider__item item">
-                        <div class="slider__content">
-                            <img class="slider__content_photo" src="resources/icons/person-1-icon.svg" alt="">
-                            <div class="slider__content_author_information">
-                                <span class="basic-title slider__content_author">Viezh Robert</span>
-                                <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                        <div class="it">
+                            <div class="slider__content">
+                                <img class="slider__content_photo" src="resources/icons/person-1-icon.svg" alt="">
+                                <div class="slider__content_author_information">
+                                    <span class="basic-title slider__content_author">Viezh Robert</span>
+                                    <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                                </div>
+                                <div class="basic-content slider__content_rating">
+                                    <div>4.5</div>
+                                    <img class="rating-img" src="resources/icons/rating.svg"/>
+                                </div>
                             </div>
-                            <div class="basic-content slider__content_raiting">4.5</div>
+                            <div class="basic-content slider__content_opinion">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
                         </div>
-                        <div class="basic-content slider__content_opinion">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.</div>
                     </div>
                     <div class="slider__item item">
-                        <div class="slider__content">
-                            <img class="slider__content_photo" src="resources/icons/person-2-icon.svg" alt="">
-                            <div class="slider__content_author_information">
-                                <span class="basic-title slider__content_author">Yessica Christy</span>
-                                <span class="basic-content slider__content_geolocation">Shanxi, China</span>
+                        <div class="it">
+                            <div class="slider__content">
+                                <img class="slider__content_photo" src="resources/icons/person-2-icon.svg" alt="">
+                                <div class="slider__content_author_information">
+                                    <span class="basic-title slider__content_author">Yessica Christy</span>
+                                    <span class="basic-content slider__content_geolocation">Shanxi, China</span>
+                                </div>
+                                <div class="basic-content slider__content_rating">
+                                    <div>4.5</div>
+                                    <img class="rating-img" src="resources/icons/rating.svg"/>
+                                </div>
                             </div>
-                            <div class="basic-content slider__content_raiting">4.5</div>
+                            <div class="basic-content slider__content_opinion">“I like it because I like to travel far and still can connect with high speed.”.</div>
                         </div>
-                        <div class="basic-content slider__content_opinion">“I like it because I like to travel far and still can connect with high speed.”.</div>
                     </div>
                     <div class="slider__item item">
-                        <div class="slider__content">
-                            <img class="slider__content_photo" src="resources/icons/person-3-icon.svg" alt="">
-                            <div class="slider__content_author_information">
-                                <span class="basic-title slider__content_author">Kim Young Jou</span>
-                                <span class="basic-content slider__content_geolocation">Seoul, South Korea</span>
+                        <div class="it">
+                            <div class="slider__content">
+                                <img class="slider__content_photo" src="resources/icons/person-3-icon.svg" alt="">
+                                <div class="slider__content_author_information">
+                                    <span class="basic-title slider__content_author">Kim Young Jou</span>
+                                    <span class="basic-content slider__content_geolocation">Seoul, South Korea</span>
+                                </div>
+                                <div class="basic-content slider__content_rating">
+                                    <div>4.5</div>
+                                    <img class="rating-img" src="resources/icons/rating.svg"/>
+                                </div>
                             </div>
-                            <div class="basic-content slider__content_raiting">4.5</div>
+                            <div class="basic-content slider__content_opinion">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</div>
                         </div>
-                        <div class="basic-content slider__content_opinion">“This is very unusual for my business that currently requires a virtual private network that has high security.”.</div>
                     </div>
-                    <div class="slider__item item item3">
-                        <div class="slider__content">
-                            <img class="slider__content_photo" src="resources/icons/person-4-icon.svg" alt="">
-                            <div class="slider__content_author_information">
-                                <span class="basic-title slider__content_author">Yana Dantsova</span>
-                                <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                    <div class="slider__item item">
+                        <div class="it">
+                            <div class="slider__content">
+                                <img class="slider__content_photo" src="resources/icons/person-4-icon.svg" alt="">
+                                <div class="slider__content_author_information">
+                                    <span class="basic-title slider__content_author">Yana Dantsova</span>
+                                    <span class="basic-content slider__content_geolocation">Warsaw, Poland</span>
+                                </div>
+                                <div class="basic-content slider__content_rating">
+                                    <div>4.5</div>
+                                    <img class="rating-img" src="resources/icons/rating.svg"/>
+                                </div>
                             </div>
-                            <div class="basic-content slider__content_raiting">4.5</div>
+                            <div class="basic-content slider__content_opinion">Perfect.</div>
                         </div>
-                        <div class="basic-content slider__content_opinion">Perfect.</div>
                     </div>
                 </div>
                 <div class="slider-links">
@@ -224,16 +244,19 @@
                         <li data-slide-to="3"></li>
                     </ol>
                     <div class="arrows">
-                        <a class="slider__control slider__control_left" href="#" role="button" data-slide="prev"></a>
-                        <a class="slider__control slider__control_right slider__control_show" href="#" role="button" data-slide="next"></a>
+                        <button class="slider__control slider__control_left" href="#" role="button" data-slide="prev">
+                            <img class="arrow" src="resources/icons/arrow-red-icon.svg">
+                        </button>
+                        <button class="slider__control slider__control_right slider__control_show" href="#" role="button" data-slide="next">
+                            <img class="arrow" src="resources/icons/arrow-white-icon.svg">
+                        </button>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+    </div>
 </section>
--->
 <section class="seventh-section">
     <div class="seventh-section-div">
         <div class="basic-title seventh-section-title">Subscribe Now for Get Special Features!</div>

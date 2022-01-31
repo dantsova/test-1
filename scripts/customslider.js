@@ -13,8 +13,7 @@ const CLASS_CONTROL_HIDE = 'slider__control_hide';
 const CLASS_ITEM_ACTIVE = 'slider__item_active';
 const CLASS_INDICATOR_ACTIVE = 'active';
 
-//for testimonialls
-const _fullScrollValue  = 110.3;
+const _fullScrollValue  = 80;
 const _partialScrollValue = 25;
 
 function hasTouchDevice() {
