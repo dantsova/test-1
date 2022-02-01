@@ -3,7 +3,7 @@
 }
 html{
     height: 100%;
-    background: #F6F6F6;
+    background: linear-gradient(26.55deg, #ECECEC -16.12%, rgba(245, 245, 245, 0) 100%);
 }
 body{
     display: flex;
@@ -61,7 +61,7 @@ a{
 #logo-header{
     display: flex;
     flex-direction: row;
-    margin-right: 157px;
+    margin-right: 147px;
     align-items: center;
     justify-content: space-between;
     width: 149px;

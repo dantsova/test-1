@@ -14,7 +14,7 @@ const CLASS_ITEM_ACTIVE = 'slider__item_active';
 const CLASS_INDICATOR_ACTIVE = 'active';
 
 const _fullScrollValue  = 80;
-const _partialScrollValue = 25;
+const _partialScrollValue = 100;
 
 function hasTouchDevice() {
     return !!('ontouchstart' in window || navigator.maxTouchPoints);
