@@ -2,9 +2,9 @@
     body {
     }
     /*header*/
-    header, section {
-        padding-left: 8%;
-        padding-right: 8%;
+    header, section, footer {
+        margin-left: 8%;
+        margin-right: 8%;
     }
     header{
         flex-direction: row;

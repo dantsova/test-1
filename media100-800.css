@@ -6,8 +6,8 @@
     }
 
     section, header, footer {
-        padding-left: 2%;
-        padding-right: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
         flex-wrap: wrap;
         width: initial !important;
     }
@@ -27,7 +27,6 @@
     }
     #burger-checkbox{
         margin-top: 10%;
-        width: 10vw;
         height: auto;
     }
     .nav {
@@ -57,7 +56,7 @@
     }
     .btn-menu {
         color: #fff;
-        background-color: #fff;
+        background-color: transparent;
         padding: 2px;
         cursor: pointer;
         transition: left .23s;
@@ -104,7 +103,6 @@
         opacity: 100%;
     }
 
-
     .logo {
         width: 15vw;
         height: auto;
@@ -115,10 +113,6 @@
         margin-top: 10%;
         margin-bottom: 15%;
         justify-content: space-between;
-    }
-    .logo-text{
-        margin-left: 5%;
-        font-size: 6vw;
     }
     .logo{
         width: 40px;
@@ -158,6 +152,7 @@
         font-size: calc(12px + (14 - 12) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .basic-title{
+        line-height: 25px;
         font-size: calc(22px + (28 - 22) * ( (100vw - 480px) / ( 1024 - 480) ));
     }
     .span-logo{
@@ -328,5 +323,109 @@
     .sn-image{
         width: 30vw;
         height: auto;
+    }
+    .slider {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sixth-section-div{
+        padding-right: initial !important;
+        margin-right: 2%;
+    }
+    .item{
+        width: 100%;
+    }
+    .it{
+        width: 98%;
+    }
+    .slider-links{
+        margin-top: 30px;
+        margin-right: 2%;
+    }
+    .sixth-section-title, .sixth-section-content{
+        width: initial !important;
+        height: initial !important;
+    }
+    .slider__content_author_information{
+        min-width: 50%;
+    }
+    .slider__content_rating{
+        align-self: end;
+    }
+
+    /*seventh-section*/
+    .seventh-section{
+        flex-direction: column;
+        padding-left: initial !important;
+        padding-right: initial !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .seventh-section-title{
+        text-align: center;
+        width: initial !important;
+        height: auto;
+    }
+    .seventh-section-content{
+        text-align: center;
+        width: initial !important;
+        height: auto;
+        margin-top: 10px;
+    }
+    .seventh-section-div{
+        margin-bottom: 10px;
+    }
+
+    /*footer*/
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .hidden{
+        display: none;
+    }
+    .footer-title{
+        width: initial !important;
+        justify-content: center;
+        margin-bottom: 0;
+        margin-top: 10px;
+        pointer-events: auto;
+    }
+    .footer-content{
+        text-align: center;
+        width: initial !important;
+        height: auto;
+    }
+    .sm-logos{
+        justify-content: center;
+        margin: initial !important;
+    }
+    .sm-logo{
+        margin: initial !important;
+    }
+    .links-list{
+        align-items: center;
+    }
+    .footer-title {
+        line-height: 25px;
+        font-size: calc(14px + (16 - 14) * ((100vw - 480px) / (1024 - 480)));
+    }
+    .general-part-footer{
+        margin-top: 10px;
+    }
+    .other-footers{
+        min-width: 100%;
+        justify-content: space-around;
+    }
+    .copyright-text{
+        margin-top: -20px;
+        text-align: center;
+    }
+    .logo-text{
+        width: initial !important;
+        height: initial !important;
+        margin-left: 10px;
     }
 }

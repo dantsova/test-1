@@ -3,7 +3,7 @@
 }
 html{
     height: 100%;
-    background: #F6F6F6;
+    background: linear-gradient(26.55deg, #ECECEC -16.12%, rgba(245, 245, 245, 0) 100%);
 }
 body{
     display: flex;
@@ -13,10 +13,10 @@ body{
     justify-content: left;
     margin: 0;
 }
-header, section{
+header, section, footer{
     flex-direction: row;
-    padding-left: 195px;
-    padding-right: 195px;
+    margin-left: 195px;
+    margin-right: 195px;
 }
 a{
     text-decoration: none;
@@ -61,7 +61,7 @@ a{
 #logo-header{
     display: flex;
     flex-direction: row;
-    margin-right: 157px;
+    margin-right: 147px;
     align-items: center;
     justify-content: space-between;
     width: 149px;
@@ -81,7 +81,7 @@ a{
     height: 24px;
     font-weight: bold;
 }
-#VPN{
+.VPN{
     font-weight: bolder;
 
 }
@@ -134,14 +134,6 @@ button {
     text-align: center;
     color: #4F5665;
 }
-.bold-text{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #0B132A;
-}
 #sign-in{
     margin-right: 29px;
 }
@@ -162,6 +154,7 @@ button {
     display: flex;
     flex-direction: row;
     margin-top: 88.5px;
+    margin-right: initial !important;
     padding-right: 125px;
 }
 .first-section-content-div{
@@ -183,7 +176,7 @@ button {
     margin-top: 20px;
     margin-bottom: 50px;
 }
-.first-section-button{
+.basic-red-button{
     width: 250px;
     height: 60px;
     background: #F53838;
@@ -199,7 +192,7 @@ button {
     border-radius: 10px;
 }
 .span-logo{
-    color: #4F5665;
+    font-weight: 700;
 }
 .first-section-image{
     width: 611.24px;
@@ -261,7 +254,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 96px 0px 136px 0px;
+    margin-top: 96px;
+    margin-bottom: 136px;
     align-items: flex-end;
 }
 .third-section-image{
@@ -429,4 +423,248 @@ li{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+/*sixth-section*/
+.sixth-section{
+    margin-right: initial !important;
+    margin-top: 50px;
+}
+.sixth-section-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 195px;
+}
+
+.sixth-section-title{
+    width: 447.81px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.sixth-section-content{
+    width: 555px;
+    height: 60px;
+}
+.rating-img{
+    margin-left: 11px;
+}
+
+/*slider*/
+.container {
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+ol{
+    padding-inline-start: 0px;
+}
+li{
+    margin: 0 5px;
+}
+.slider__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider__content_section {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    line-height: 1;
+}
+.slider__content_photo {
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.slider__content_author_information {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    min-width: 65%;
+}
+.slider__content_author {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+}
+.slider__content_geolocation{
+    font-size: 14px;
+    line-height: 20px;
+    color: #4F5665;
+    text-align: left;
+}
+.slider__content_opinion{
+    height: 100px;
+    text-align: left;
+    color: #0B132A;
+    margin-top: 10px;
+}
+.slider__content_rating{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    text-align: left;
+}
+.slider__control{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.slider__control_right{
+    background: #F53838;
+    box-shadow: 0px 14px 44px rgba(14, 20, 34, 0.08);
+}
+.slider__control:hover,
+.slider__control:focus {
+    opacity: 1;
+}
+
+.slider__indicators {
+    display: flex;
+    justify-content: left;
+    z-index: 15;
+    list-style: none;
+    align-items: center;
+}
+.it{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 230px;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.rectangles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.title{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    color: #212353;
+}
+.slider-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+    margin-right: 195px;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-between;
+}
+.arrow{
+    margin-left: -10px;
+    align-self: center;
+}
+
+.slider__item item{
+    width: 450px;
+}
+
+/*seventh-section*/
+.seventh-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 58.5px 70px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.seventh-section-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.seventh-section-title{
+    width: 370px;
+    height: 80px;
+    text-align: left;
+}
+.seventh-section-content{
+    width: 410px;
+    height: 16px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 63.8px;
+    padding-bottom: 100px;
+}
+.other-footers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 50%;
+}
+.footer-title{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    width: 149px;
+    height: 36.23px;
+    margin-bottom: 10px;
+}
+.footer-content{
+    margin-top: 20px;
+    width: 340px;
+    height: 61.57px;
+    text-align: left;
+}
+.sm-logos{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.sm-logo{
+    margin-left: -20px;
+}
+.links-list{
+    display: flex;
+    flex-direction: column;
+}
+.footer-list-content{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.copyright-text{
+    font-weight: 400;
+    color: #AFB5C0;
+    text-align: left;
 }
